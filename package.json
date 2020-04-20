@@ -1,0 +1,25 @@
+{
+  "name": "@kisbox/browserslist-config",
+  "version": "1.0.0-beta.12",
+  "description": "A well-balanced browserslist configuration",
+  "author": "MisterTicot <mister.ticot@cosmic.plus>",
+  "repository": "github:kisbox/browserslist-config",
+  "license": "MIT",
+  "main": "src/index.js",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write --no-semi --trailing-comma none 'src/**/*.{js,json,md}' '*.{json,md}'",
+    "eslint": "eslint --fix 'src/**/*.js'",
+    "lint": "npm run prettier && npm run eslint",
+    "commit-release": "[ \"$version\" ] && git ci -am \"Release $version\"",
+    "tag-release": "[ \"$version\" ] && git tag -s \"$version\" -m \"Release $version\"",
+    "push-release": "git push --follow-tags",
+    "make-release": "npm run commit-release",
+    "publish-release": "npm run tag-release && npm run push-release && npm publish"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "prettier": "^2.0.5"
+  }
+}
