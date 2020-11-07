@@ -11,7 +11,6 @@ module.exports = [
   "not dead",
   "not ie 11", // No more security fixes
   "not ie_mob 11", // Almost dead
-  "not op_mob 46", // Outdated, now based on Chrome
 
   /* Ignore marginals */
   "not < 0.1%"
