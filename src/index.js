@@ -3,7 +3,6 @@ module.exports = [
   "last 2 versions",
 
   /* Include safe */
-  "edge 18", // Still active
   "firefox esr", // Long-Term-Support
   "ios_saf >= 12", // Still active
 
