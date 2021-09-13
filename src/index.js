@@ -1,10 +1,11 @@
 module.exports = [
   /* Base */
-  "last 2 versions",
+  "last 2 major versions",
+  "last 10 chrome versions", // Don't drop out support too quickly
 
   /* Include safe */
   "firefox esr", // Long-Term-Support
-  "ios_saf >= 12", // Still active
+  "ios_saf 12.4", // Last version on some iPhones
 
   /* Ignore unsafe */
   "not dead",
