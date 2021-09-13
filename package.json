@@ -1,6 +1,6 @@
 {
   "name": "@kisbox/browserslist-config",
-  "version": "1.0.0-beta.17",
+  "version": "1.0.0-beta.21",
   "description": "A well-balanced browserslist configuration",
   "author": "MisterTicot <mister.ticot@cosmic.plus>",
   "repository": "github:kisbox/browserslist-config",
@@ -19,7 +19,7 @@
     "publish-release": "npm run tag-release && npm run push-release && npm publish"
   },
   "devDependencies": {
-    "eslint": "^7.13.0",
-    "prettier": "^2.1.2"
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.0"
   }
 }
